@@ -22,10 +22,10 @@ skimage http://scikit-image.org/download.html
 
 * Default
 
-python *path of test images*
+python <path of test images>
 example: <br /><code>python detect.py ./Sample_Pics</code><br />
         
 * if the test images have extensions other than jpeg/jpg/png use:
 
-python *path of test images* *extension*
+python <path of test images> <extension>
 example: <br /><code>python detect.py ./Sample_Pics ['.jpeg','.jpg','.png','.bmp']<br /><code>
