@@ -19,13 +19,9 @@ OpenCV 3.1 http://opencv.org/downloads.html
 skimage http://scikit-image.org/download.html
 
 # Usage : 
-
 * Default
-
 <br /> python < .py file > < path of test images > <br />
 example: <br /><code>python detect.py ./Sample_Pics</code><br />
-        
 * if the test images have extensions other than jpeg/jpg/png use:
-
 <br /> python < .py file > < path of test images > < extension > <br />
 example: <br /><code>python detect.py ./Sample_Pics ['.jpeg','.jpg','.png','.bmp']</code><br />
