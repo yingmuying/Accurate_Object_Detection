@@ -1,6 +1,6 @@
 # Accurate Object Detection For Bi-modal Histogram Images
 
-The code is demonstration of clustering-based image thresholding or the reduction of a graylevel image to a binary image. It uses Otsu's thresholding  algorithm and assumes that the image contains two classes of pixels following bi-modal histogram (foreground pixels and background pixels), it then calculates the optimum threshold separating the two classes so that their combined spread (intra-class variance) is minimal, or equivalently
+The code is demonstration of clustering-based image thresholding or the reduction of a graylevel image to a binary image. It uses Otsu's thresholding algorithm and assumes that the image contains two classes of pixels following bi-modal histogram (foreground pixels and background pixels), it then calculates the optimum threshold separating the two classes so that their combined spread (intra-class variance) is minimal, or equivalently
 
 ## Human Detection
 A human detector has been implemented that accurately bounds a person in the given input image set.
