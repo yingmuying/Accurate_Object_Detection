@@ -6,7 +6,7 @@ The code is demonstration of clustering-based image thresholding or the reductio
 A human detector has been implemented that accurately bounds a person in the given input image set.
 
 ## Approach
-* The input image is converted into a binary image using OTSU‘s algorithm. OTSU algorithm is a very simple idea. 
+* The input image is converted into a binary image using OTSUâ€˜s algorithm. OTSU algorithm is a very simple idea. 
 * It searches the threshold that the weighted within class variance and minimizes the intra-class variance, maximizes the intervariance for black and white pixels 0/1. 
 * Smoothening is done in order to remove the noises and to prepare the histograms for further processing. Smoothening is helpful in connectivity.
 * The connectivity of the pixels can be done into 4-way connectivity and 8-way connectivity. Connectivity with 0 is the background and with the 1 is the component. 
@@ -22,10 +22,11 @@ skimage http://scikit-image.org/download.html
 
 * Default
 
-python <path of test images>
+python < path of test images >
+
 example: <br /><code>python detect.py ./Sample_Pics</code><br />
         
 * if the test images have extensions other than jpeg/jpg/png use:
 
-python <path of test images> <extension>
-example: <br /><code>python detect.py ./Sample_Pics ['.jpeg','.jpg','.png','.bmp']<br /><code>
+python < path of test images > < extension >
+example: <br /><code>python detect.py ./Sample_Pics ['.jpeg','.jpg','.png','.bmp']</code><br />
